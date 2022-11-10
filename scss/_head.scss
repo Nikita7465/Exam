@@ -1,4 +1,25 @@
 .header__container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+}
+
+.btn__buy {
+    color: $btn-text-color;
+    background-color: $primary;
+    border-radius: $btn-buy-radius;
+    border: $btn-border;
+    font-family: $btn-font;
+    font-weight: $btn-weight;
+    padding: $btn-buy-padding;
+    min-width: 137px;
+}
+
+.btn__buy-container {
+    margin: 0 auto;
 }
