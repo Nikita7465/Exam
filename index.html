@@ -71,12 +71,14 @@
                 </div>
 
                 <div class="header__img-border-container">
-                    <div class="header__img-border">
+
+                    <!-- <div class="header__img-border">
                         <img src="/images/circles.svg" alt="">
-                    </div>
+                    </div> -->
 
                     <div class="header__img-container">
                         <img class="header__img" src="/images/img-1.png" alt="">
+                        <div class="header__img-shadow"></div>
                     </div>
 
                     <div class="header__arrow-container">
@@ -89,7 +91,192 @@
             <div class="header__buy-card">
 
                 <form class="header__form">
-                    <div class="brand__form">
+
+
+
+
+
+
+
+
+
+
+                    <div class="brand__form brand-container">
+
+                        <h4 class="select__text">Brand</h4>
+
+                        <select name="brand" id="brand__select">
+
+                            <option value="brand" class="brand__option">
+                                Puma
+                            </option>
+
+                            <option value="brand" class="brand__option">
+                                Puma
+                            </option>
+
+                            <option value="brand" class="brand__option">
+                                Puma
+                            </option>
+
+                            <option value="brand" class="brand__option">
+                                Puma
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- <div class="brand__form">
+                        <div class="select__text-container">
+                            <h4 class="select__text">Brand</h4>
+                        </div>
+                        <div class="select" data-state="">
+                            <div class="select__title" data-default="Option 0">Puma</div>
+                            <div class="select__content">
+
+
+                                <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" />
+                                <label for="singleSelect0" class="select__label"></label>
+
+
+                                <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                                <label for="singleSelect1" class="select__label">Puma</label>
+
+
+
+                                <input id="singleSelect2" class="select__input" type="radio" name="singleSelect" />
+                                <label for="singleSelect2" class="select__label">
+                                    <div class="label__line"></div>Puma
+                                </label>
+
+                                <input id="singleSelect3" class="select__input" type="radio" name="singleSelect" />
+                                <label for="singleSelect3" class="select__label">
+                                    <div class="label__line"></div>Puma
+                                </label>
+
+
+                                <input id="singleSelect4" class="select__input" type="radio" name="singleSelect" />
+                                <label for="singleSelect4" class="select__label">
+                                    <div class="label__line"></div>Puma
+                                </label>
+
+
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+
+
+
+
+
+
+                    <div class="line-1-container">
+                        <hr class="line-1">
+                    </div>
+
+                    <div class="person__form person-container">
+
+                        <h4 class="select__text">Person</h4>
+
+                        <select name="person" id="person__select">
+
+                            <option value="person" class="person__option">
+                                man
+                            </option>
+
+                            <option value="person" class="person__option">
+                                woman
+                            </option>
+
+                            <option value="person" class="person__option">
+                                child
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="line-2-container">
+                        <hr class="line-2">
+                    </div>
+
+                    <div class="size__form size-container">
+
+                        <h4 class="select__text">Size</h4>
+
+                        <select name="size" id="size__select">
+
+                            <option value="size" class="size__option">
+                                extra small
+                            </option>
+
+                            <option value="size" class="size__option">
+                                small
+                            </option>
+
+                            <option value="size" class="size__option">
+                                medium
+                            </option>
+
+                            <option value="size" class="size__option" selected>
+                                large
+                            </option>
+
+                            <option value="size" class="size__option">
+                                extra large
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="line-3-container">
+                        <hr class="line-3">
+                    </div>
+
+                    <div class="price__form price-container">
+
+                        <h4 class="select__text">Price</h4>
+
+                        <select name="price" id="price__select">
+
+                            <option value="price" class="price__option">
+                                150$
+                            </option>
+
+                            <option value="price" class="price__option">
+                                200$
+                            </option>
+
+                            <option value="price" class="price__option">
+                                250$
+                            </option>
+
+                            <option value="price" class="price__option">
+                                300$
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- <div class="brand__form">
                         <div class="select__text-container">
                             <h4 class="select__text">Brand</h4>
                         </div>
@@ -212,6 +399,8 @@
 
                     <hr class="line-3">
 
+
+
                     <div class="price__form">
                         <div class="select__text-container">
                             <h4 class="select__text">Price</h4>
@@ -249,7 +438,7 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <button class="card__btn-buy">Buy now</button>
 
@@ -293,6 +482,32 @@
                 selectSingle.setAttribute('data-state', '');
             });
         }
+
+
+
+
+        // const selectSingles = document.querySelectorAll('.select');
+        // const selectSingle_titles = selectSingle.querySelectorAll('.select__title');
+        // const selectSingle_labels = selectSingle.querySelectorAll('.select__label');
+
+        // // Toggle menu
+        // for (let i = 0; i < selectSingle_titles.length; i++) { // const selectSingle_title=selectSingle_titles[i]; //
+        // selectSingle_title.addEventListener('click', () => {
+            // if ('active' === selectSingles[i].getAttribute('data-state')) {
+            // selectSingles[i].setAttribute('data-state', '');
+            // } else {
+            // selectSingle[i].setAttribute('data-state', 'active');
+            // }
+            // });
+            // }
+
+            // // Close when click to option
+            // for (let i = 0; i < selectSingle_labels.length; i++) { // selectSingle_labels[i].addEventListener('click',
+            // (evt) => {
+            // selectSingle_title.textContent = evt.target.textContent;
+            // selectSingle.setAttribute('data-state', '');
+            // });
+            // }
 
     </script>
 
