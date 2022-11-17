@@ -417,3 +417,83 @@ hr {
 //     -moz-appearance: none;
 //     appearance: none;
 // }
+
+
+
+
+
+.section-video-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section-video__text-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.section-video__name {
+    color: $primary;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: source serif pro;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-video__title {
+    color: $dark;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: source serif pro;
+    text-align: center;
+    line-height: 57px;
+    max-width: 340px;
+    margin: 10px 0 20px 0;
+}
+
+.section-video__text {
+    color: $secondary;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    text-align: center;
+    margin: 0;
+    max-width: 326px;
+}
+
+.section-video__img-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-video__img {
+    position: relative;
+    width: 100%;
+}
+
+.play-btn-container {
+    position: absolute;
+    margin-top: 9%;
+    margin-right: 6%;
+    z-index: 1;
+}
+
+.play-btn {
+    padding: 18px 16px 16px 18px;
+    border: none;
+    border-radius: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background: white;
+    cursor: pointer;
+}
+
+.icon-play3 {
+    font-size: 24px;
+}
