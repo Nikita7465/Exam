@@ -454,6 +454,14 @@
     .section-video-container {
         padding: 40px 100px;
     }
+
+    .section-testimonials__content {
+        display: flex;
+    }
+
+    .section-testimonials__main {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 1090px) {
