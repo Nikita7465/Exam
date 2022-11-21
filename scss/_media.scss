@@ -45,6 +45,10 @@
         width: 140px;
         padding-left: 32px;
     }
+
+    .section-email__input {
+        width: 83%;
+    }
 }
 
 @media (min-width: 552px) {
@@ -131,6 +135,43 @@
 
     .section-gallary__nav-container {
         overflow-x: hidden;
+    }
+
+    .section-email-container {
+        display: flex;
+    }
+
+    .section-email__img {
+        margin: 0 0 0 auto;
+    }
+
+    .section-email__img img {
+        border-top-right-radius: 0;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        height: 100%;
+    }
+
+    .section-email__main {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 0;
+        margin: 0 auto 0 0;
+        width: 500px;
+    }
+
+    .section-email__form {
+        display: flex;
+        margin-top: auto;
+    }
+
+    .section-email__input {
+        flex-grow: 10;
+    }
+
+    .send-btn {
+        position: relative;
+        width: 115px;
     }
 }
 
@@ -436,6 +477,10 @@
     .icon-play3 {
         font-size: 48px;
     }
+
+    .section-email__form {
+        margin-top: 55px;
+    }
 }
 
 @media (min-width: 1022px) {
@@ -460,6 +505,14 @@
     }
 
     .section-testimonials__main {
+        margin-top: 0;
+    }
+
+    .section-email__main {
+        padding: 50px;
+    }
+
+    .section-email__title {
         margin-top: 0;
     }
 }

@@ -816,3 +816,83 @@ hr {
     font-weight: 400;
     margin: 0;
 }
+
+.section-email-container {
+    padding: 40px 20px;
+}
+
+.section-email__img {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-email__img img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.section-email__main {
+    padding: 20px;
+    background: #F2F6FB;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: -5px;
+}
+
+.section-email__title {
+    color: $dark;
+    font-size: 31px;
+    font-family: source serif pro;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+
+.section-email__text {
+    color: $secondary;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 400;
+    margin: 15px 0 30px 0;
+}
+
+.section-email__form {
+    width: 100%;
+}
+
+.section-email__input {
+    border-top: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+    border-left: 1px solid $secondary;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 12px 0 12px 10px;
+    min-width: 190px;
+    background: none;
+    outline: none;
+    position: relative;
+    width: 80%;
+}
+
+.send-btn {
+    color: white;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    background: $primary;
+    border: none;
+    padding: 10px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    width: 15%;
+}
+
+.section-email__input::placeholder {
+    color: $secondary;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 400;
+}
