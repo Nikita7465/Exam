@@ -49,6 +49,35 @@
     .section-email__input {
         width: 83%;
     }
+
+    .footer__items-wrapper {
+        display: block;
+    }
+
+    .footer__grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item-2 {
+        text-align: right;
+    }
+
+    .item-3 {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .item-4 {
+        margin: 0 0 0 -50px;
+    }
+
+    .item-4-title {
+        text-align: left;
+    }
+
+    .col-2 {
+        grid-column: span 1;
+    }
 }
 
 @media (min-width: 552px) {
@@ -62,6 +91,10 @@
     .price__form {
         width: 160px;
         padding-left: 52px;
+    }
+
+    .item-4 {
+        margin: 0 0 0 -30px;
     }
 }
 
@@ -97,6 +130,10 @@
     }
 
     .card__btn-buy {
+        margin: 0 0 0 auto;
+    }
+
+    .item-4 {
         margin: 0 0 0 auto;
     }
 }
@@ -166,12 +203,12 @@
     }
 
     .section-email__input {
-        flex-grow: 10;
+        flex-grow: 1;
     }
 
-    .send-btn {
+    .section-email__send-btn {
         position: relative;
-        width: 115px;
+        width: 100px;
     }
 }
 
@@ -200,6 +237,32 @@
 
     .icon-play3 {
         font-size: 48px;
+    }
+
+    .footer__grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item-2 {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .item-3 {
+        margin: 0 auto;
+    }
+
+    .item-4 {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .item-4-title {
+        text-align: center;
+    }
+
+    .col-3 {
+        grid-column: span 3;
     }
 }
 
@@ -514,6 +577,23 @@
 
     .section-email__title {
         margin-top: 0;
+    }
+
+    .footer__grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .col-3 {
+        grid-column: span 1;
+    }
+
+    .item-4-title {
+        text-align: left;
+    }
+
+    .footer__grid-container {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 }
 

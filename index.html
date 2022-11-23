@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="menu">
         <div class="header__container">
             <div class="header__top">
 
@@ -32,10 +32,10 @@
                 </div>
 
                 <nav class="nav">
-                    <div class="nav__link"><a href="">Menu</a></div>
-                    <div class="nav__link"><a href="">About</a></div>
-                    <div class="nav__link"><a href="">Feature</a></div>
-                    <div class="nav__link"><a href="">Gallary</a></div>
+                    <div class="nav__link"><a href="#menu">Menu</a></div>
+                    <div class="nav__link"><a href="#video">About</a></div>
+                    <div class="nav__link"><a href="#feature">Feature</a></div>
+                    <div class="nav__link"><a href="#gallary">Gallary</a></div>
                 </nav>
 
                 <div class="btn__buy-container">
@@ -49,10 +49,10 @@
                     </label>
 
                     <ul class="menu__box">
-                        <li><a class="menu__item" href="#">Menu</a></li>
-                        <li><a class="menu__item" href="#">About</a></li>
-                        <li><a class="menu__item" href="#">Feature</a></li>
-                        <li><a class="menu__item" href="#">Gallary</a></li>
+                        <li><a class="menu__item" href="#menu">Menu</a></li>
+                        <li><a class="menu__item" href="#video">About</a></li>
+                        <li><a class="menu__item" href="#feature">Feature</a></li>
+                        <li><a class="menu__item" href="#gallary">Gallary</a></li>
                     </ul>
                 </div>
 
@@ -450,7 +450,7 @@
         </div>
     </header>
 
-    <section class="section-video">
+    <section class="section-video" id="video">
 
         <div class="section-video-container">
 
@@ -476,7 +476,7 @@
 
     </section>
 
-    <section class="section-feature">
+    <section class="section-feature" id="feature">
 
         <div class="section-feature-container">
 
@@ -553,7 +553,7 @@
 
     </section>
 
-    <section class="section-gallary">
+    <section class="section-gallary" id="gallary">
 
         <div class="section-gallary-container">
 
@@ -716,7 +716,7 @@
 
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonials">
 
         <div class="section-testimonials-container">
 
@@ -779,7 +779,7 @@
 
     </section>
 
-    <div class="section-email">
+    <section class="section-email" id="email">
 
         <div class="section-email-container">
 
@@ -800,7 +800,7 @@
 
                     <input class="section-email__input" type="email" placeholder="Enter your email address">
 
-                    <button class="send-btn">Send</button>
+                    <button class="section-email__send-btn">Send</button>
 
                 </form>
 
@@ -808,7 +808,128 @@
 
         </div>
 
-    </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer__grid-container">
+
+                <div class="footer__item item-1 col-2">
+
+                    <div class="footer__logo-wrapper">
+
+                        <img src="/images/logo.svg" alt="" class="footer__logo">
+
+                    </div>
+
+                    <div class="footer__address-wrapper">
+
+                        <span class="footer__address"><a href="#">10 New Town Street, V2 <br> 5NW, Newstate,
+                                USA.</a></span>
+
+                    </div>
+
+                    <span class="footer__gmail"><a href="#">shovasatkhira88@gmail.com</a></span>
+
+                    <div class="footer__icons">
+
+                        <div class="icon-facebook-wrapper">
+
+                            <a href="https://www.facebook.com/"><i class="icon-facebook2"></i></a>
+
+                        </div>
+
+                        <div class="icon-instagram-wrapper">
+
+                            <div class="icon-instagram-gradient"></div>
+
+                            <a href="https://www.instagram.com/"><i class="icon-instagram"></i></a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+                        <div class="icon-twitter-wrapper">
+
+                            <a href="https://twitter.com/"><i class="icon-twitter"></i></a>
+
+                        </div>
+
+                        <div class="icon-google-wrapper">
+
+                            <a href="https://www.google.com/"><i class="icon-google"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="footer__item item-2">
+
+                    <h4 class="footer__item-title">Our services</h4>
+
+                    <ul class="footer__list">
+
+                        <li class="list-item"><a href="#video">About us</a></li>
+                        <li class="list-item"><a href="#feature">Feature</a></li>
+                        <li class="list-item"><a href="#gallary">Gallary</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer__item item-3">
+
+                    <h4 class="footer__item-title">Support</h4>
+
+                    <ul class="footer__list">
+
+                        <li class="list-item"><a href="#">Privacy & Policy</a></li>
+                        <li class="list-item"><a href="#">Terms & Condition</a></li>
+                        <li class="list-item"><a href="#">Support System</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer__item item-4 col-2 col-3">
+
+                    <h4 class="footer__item-title item-4-title">Contact us</h4>
+
+                    <p class="footer__contact-text">Lorem ipsum dolor sit amet consectetur adipiscin.</p>
+
+                    <form action="" class="footer__form">
+
+                        <input class="footer__input" type="email" placeholder="Mail address">
+
+                        <button class="footer__send-btn">Send</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <hr class="footer__line">
+
+            <div class="footer__text-wrapper">
+
+                <span class="footer__text">Copyright 2021 The PUMA All Rights Reserved.</span>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
