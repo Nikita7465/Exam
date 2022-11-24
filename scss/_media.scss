@@ -21,7 +21,14 @@
     }
 
     .header__buy-card {
-        padding: 30px 55px;
+        padding: 30px 20px;
+    }
+
+    .brand__form,
+    .size__form,
+    .person__form,
+    .price__form {
+        width: 130px;
     }
 
     .play-btn {
@@ -33,18 +40,57 @@
     }
 }
 
+@media (min-width: 491px) {
+
+    .brand__form {
+        width: 120px;
+    }
+
+    .size__form {
+        width: 120px;
+    }
+
+    .person__form {
+        width: 120px;
+        padding-left: 16px;
+        margin-left: 0;
+    }
+
+    .price__form {
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .line-2-container {
+        display: block;
+    }
+
+    .line-3-container {
+        display: none;
+    }
+
+    .card__btn-buy {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .header__buy-card {
+        padding-bottom: 5px;
+    }
+}
+
 @media (min-width: 527px) {
 
-    .brand__form,
-    .size__form {
-        width: 140px;
-    }
+    // .brand__form,
+    // .size__form {
+    //     width: 140px;
+    // }
 
-    .person__form,
-    .price__form {
-        width: 140px;
-        padding-left: 32px;
-    }
+    // .person__form,
+    // .price__form {
+    //     width: 140px;
+    //     padding-left: 32px;
+    // }
 
     .section-email__input {
         width: 83%;
@@ -82,15 +128,21 @@
 
 @media (min-width: 552px) {
 
-    .brand__form,
-    .size__form {
-        width: 160px;
+    .brand__form {
+        width: 130px;
     }
 
-    .person__form,
+    .size__form {
+        width: 130px;
+    }
+
+    .person__form {
+        width: 130px;
+        padding-left: 20px;
+    }
+
     .price__form {
-        width: 160px;
-        padding-left: 52px;
+        width: 130px;
     }
 
     .item-4 {
@@ -109,28 +161,32 @@
     }
 
     .brand__form {
-        width: 120px;
+        width: 121px;
     }
 
     .size__form {
-        width: 120px;
+        width: 121px;
         padding-left: 32px;
     }
 
     .person__form {
         width: 120px;
-        padding-left: 24px;
+        padding-left: 40px;
         margin-right: 44px;
     }
 
     .price__form {
         width: 120px;
-        padding-left: 0;
+        padding-left: 20px;
         margin: 0;
     }
 
     .card__btn-buy {
-        margin: 0 0 0 auto;
+        margin: 12px 0 0 auto;
+    }
+
+    .header__buy-card {
+        padding-bottom: 30px;
     }
 
     .item-4 {
@@ -145,17 +201,28 @@
 }
 
 @media (min-width: 634px) {
-    .header__buy-card {
-        padding: 30px 50px;
+    .brand__form {
+        margin-right: 16px;
     }
 
-    .brand__form {
-        width: 104px;
+    .person__form {
+        padding-left: 24px;
+        padding-right: 32px;
+        margin-right: 16px;
     }
 
     .size__form {
-        padding-left: 32px;
-        padding-right: 16px;
+        padding-left: 24px;
+        padding-right: 32px;
+        margin-right: 16px;
+    }
+
+    .card__btn-buy {
+        margin-right: auto;
+    }
+
+    .line-3-container {
+        display: block;
     }
 
     .section-gallary__name {
@@ -213,24 +280,6 @@
 }
 
 @media (min-width: 676px) {
-    .brand__form {
-        width: 140px;
-    }
-
-    .person__form {
-        width: 140px;
-        margin-left: 0;
-        padding-left: 32px;
-    }
-
-    .size__form {
-        width: 140px;
-    }
-
-    .price__form {
-        width: 140px;
-    }
-
     .play-btn {
         padding: 28px 40px 40px 28px;
     }
@@ -276,49 +325,60 @@
     }
 
     .brand__form {
-        width: 120px;
+        width: 115px;
         padding-left: 16px;
+        margin-right: 12px;
     }
 
     .person__form {
-        width: 120px;
+        width: 115px;
         margin-left: 0;
         padding-left: 16px;
         margin-right: 12px;
     }
 
     .size__form {
-        width: 120px;
+        width: 115px;
         padding-left: 16px;
         padding-right: 0;
     }
 
     .price__form {
-        width: 120px;
+        width: 115px;
         padding-left: 16px;
         margin-bottom: 50px;
     }
 
     .card__btn-buy {
-        margin: 0 auto 0 auto;
+        margin: 5px 0 0 12px;
+    }
+
+    .header__buy-card {
+        padding-bottom: 5px;
     }
 }
 
 @media (min-width: 763px) {
     .brand__form {
-        width: 135px;
+        width: 120px;
+        margin-right: 12px;
+        padding-right: 32px;
     }
 
     .size__form {
-        width: 135px;
+        width: 120px;
     }
 
     .person__form {
-        width: 135px;
+        width: 120px;
     }
 
     .price__form {
-        width: 135px;
+        width: 120px;
+    }
+
+    .card__btn-buy {
+        margin-left: 16px;
     }
 }
 
@@ -335,9 +395,54 @@
     .btn__buy-container {
         margin: 0;
     }
+
+    .brand__form {
+        width: 120px;
+    }
+
+    .size__form {
+        width: 120px;
+    }
+
+    .person__form {
+        width: 120px;
+    }
+
+    .price__form {
+        width: 120px;
+    }
+
+    .card__btn-buy {
+        margin: 5px 0 0 24px;
+    }
 }
 
 @media (min-width:800px) {
+    .card__btn-buy {
+        margin-left: 66px;
+    }
+
+    .brand__form {
+        padding-left: 16px;
+        margin-right: 0;
+    }
+
+    .person__form {
+        padding-left: 32px;
+        margin-right: 12px;
+    }
+
+    .size__form {
+        padding-left: 32px;
+        padding-right: 0;
+        margin-right: 12px;
+    }
+
+    .price__form {
+        padding-left: 32px;
+        margin-bottom: 50px;
+    }
+
     .section-feature__cards-container {
         display: flex;
         flex-wrap: wrap;
@@ -390,8 +495,29 @@
         margin: auto 0;
     }
 
+    .brand__form {
+        padding-left: 16px;
+        margin-right: 8px;
+    }
+
+    .person__form {
+        padding-left: 24px;
+        margin-right: 8px;
+    }
+
+    .size__form {
+        padding-left: 24px;
+        padding-right: 0;
+        margin-right: 8px;
+    }
+
+    .price__form {
+        padding-left: 24px;
+        margin-bottom: 50px;
+    }
+
     .card__btn-buy {
-        margin-top: 4px;
+        margin-left: 100px;
     }
 
     .section-video-container {
@@ -436,7 +562,7 @@
 
 @media (min-width: 859px) {
     .card__btn-buy {
-        margin-left: 10px;
+        margin-left: 76px;
     }
 
     .header__buy-card {
@@ -474,7 +600,7 @@
 
 @media (min-width: 865px) {
     .card__btn-buy {
-        margin-left: 20px;
+        margin-left: 82px;
     }
 
     .header__buy-card {
@@ -494,27 +620,30 @@
     }
 
     .brand__form {
-        margin-right: 20px;
+        margin-right: 0;
         padding-left: 12px;
+        padding-right: 24px;
     }
 
     .size__form {
         margin-right: 20px;
-        padding-left: 12px;
+        padding-left: 32px;
+        padding-right: 24px;
     }
 
     .person__form {
         margin-right: 20px;
-        padding-left: 12px;
+        padding-left: 32px;
+        padding-right: 24px;
     }
 
     .price__form {
         margin-right: 20px;
-        padding-left: 12px;
+        padding-left: 32px;
     }
 
     .card__btn-buy {
-        margin-left: 40px;
+        margin-left: 126px;
     }
 }
 
