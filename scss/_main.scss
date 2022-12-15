@@ -76,7 +76,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    padding-right: 22px;
+    padding-right: 16px;
 }
 
 .header__img {
@@ -427,9 +427,13 @@ hr {
     padding-left: 12px;
 }
 
+.person__label {
+    padding-left: 27px;
+}
 
-
-
+.price__label {
+    padding-left: 25px;
+}
 
 // select {
 //     -webkit-appearance: none;
